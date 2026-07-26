@@ -196,6 +196,10 @@ table.scorecard td.leader-total { color: var(--gold); }
 .player-edit { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
 .player-edit input { flex: 1; }
 
+/* Spara-knappraden i slutet av formuläret */
+.save-bar { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.save-bar .btn { font-size: 1.05rem; padding: 14px 18px; }
+
 /* ---------- Mobile bottom nav ---------- */
 .mobile-nav {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 40;

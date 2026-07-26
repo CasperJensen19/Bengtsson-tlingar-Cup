@@ -431,10 +431,10 @@
         <textarea id="f-notes" placeholder="t.ex. Regnigt väder, Sven fick spikrekord!">${esc(m.notes)}</textarea>
       </label>
 
-      <div class="row" style="position:sticky;bottom:84px">
+      <div class="save-bar">
         <button class="btn primary block" id="save-comp">💾 Spara tävling</button>
+        <p class="help center" style="margin:.6em 0 0">Sparas först på den här enheten. Dela med familjen via <a href="#/arkiv">Arkiv &amp; synk</a>.</p>
       </div>
-      <p class="help center mt">Sparas först på den här enheten. Dela med familjen via <a href="#/arkiv">Arkiv &amp; synk</a>.</p>
     `;
 
     // ---- Bind meta-fält
